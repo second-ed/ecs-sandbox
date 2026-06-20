@@ -8,8 +8,7 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "attrs>=25.3.0",
-    "polars>=1.33.1",
+    "numpy>=2.4.6",
 ]
 
 [build-system]
@@ -22,6 +21,6 @@ dev = [
     "pre-commit>=4.3.0",
     "pytest>=8.4.2",
     "pytest-cov>=7.0.0",
-    "repo-mapper-rs>=0.3.0",
+    "repo-mapper-rs>=0.4.1",
     "ruff>=0.13.0",
 ]

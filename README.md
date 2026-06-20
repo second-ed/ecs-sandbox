@@ -7,9 +7,10 @@
 │       └── ci_tests.yaml
 ├── src
 │   └── ecs_sandbox
-│       ├── __init__.py
-│       ├── components.py
-│       └── context.py
+│       ├── cards
+│       │   ├── __init__.py
+│       │   └── deck.py
+│       └── __init__.py
 ├── tests
 │   ├── __init__.py
 │   └── test_stub.py
@@ -18,5 +19,7 @@
 ├── pyproject.toml
 ├── ruff.toml
 └── uv.lock
+
+(generated with repo-mapper-rs)
 ::
 ```
